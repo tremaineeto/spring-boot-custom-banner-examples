@@ -4,13 +4,14 @@
 |   )|   )|   )|   )|___)|   )      \  )|   )|   )| |   )|   )| |___)|___
 |__/ |__/||  / |  / |__  |           \/ |__/||    | |__/||__/ | |__   __/
 
-
+-----
 pom.xml variables
 -----
 
 ${spring-boot.version} = simply prints un-formatted value of the Spring Boot <version> found for your project
 ${spring-boot.formatted-version} = prints Spring Boot version as in the previous variable, but it surrounds it with parentheses and adds a 'v' in front of the version
 
+-----
 MANIFEST.MF variables
 -----
 
@@ -18,6 +19,7 @@ ${application.version} = prints value of the key Implementation-Version in the M
 ${application.formatted-version} = prints value of the key Implementation-Version as in the previous variable, but it surrounds it with parentheses and adds a 'v' in front of the version
 ${application.title} = prints valyu of the key Implementation-Title in the MANIFEST.MF file
 
+-----
 Ansi variables
 -----
 
